@@ -200,7 +200,6 @@ def parse_adjacencylist_unchecked(f):
   return adjlist
 
 def load_adjacencylist(file_, undirected=False, chunksize=10000, unchecked=True):
-
   if unchecked:
     parse_func = parse_adjacencylist_unchecked
     convert_func = from_adjlist_unchecked

@@ -10,8 +10,6 @@ Tests for `deepwalk` module.
 
 import unittest
 
-from deepwalk import deepwalk
-
 
 class TestDeepwalk(unittest.TestCase):
 
@@ -23,6 +21,7 @@ class TestDeepwalk(unittest.TestCase):
 
     def tearDown(self):
         pass
+
 
 if __name__ == '__main__':
     unittest.main()
